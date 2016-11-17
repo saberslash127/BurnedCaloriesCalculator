@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">"BurnedCaloriesCalculator "</string>
+    <string name="weight_label">Weight:</string>
+    <string name="weight_Input">000</string>
+    <string name="miles_Label">Miles Ran:</string>
+    <string name="ran_Results_Label">1 Miles</string>
+    <string name="burn_Label">Calories Burned:</string>
+    <string name="burn_Result_Label">00.0 Calories</string>
+    <string name="height_Label">Height:</string>
+    <string-array name="spinner_1">
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+    </string-array>
+    <string-array name="spinner_2">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+    </string-array>
+    <string name="bmi_Label">BMI:</string>
+    <string name="bmi_Result_Label">0 bmi</string>
+    <string name="name_Label">Name:</string>
+    <string name="name_Result_Label">John Doe</string>
+</resources>

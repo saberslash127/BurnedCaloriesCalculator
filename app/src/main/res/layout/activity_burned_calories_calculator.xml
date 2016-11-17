@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bustamante.burnedcaloriescalculator.BurnedCaloriesCalculatorActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="0dp">
+
+            <TextView
+                android:text="@string/weight_label"
+                android:id="@+id/weightText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:id="@+id/weightInput"
+                android:layout_column="3"
+                android:ems="5"
+                android:text="@string/weight_Input" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/miles_Label"
+                android:id="@+id/ranText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/ran_Results_Label"
+                android:id="@+id/ranResultsText"
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+            <SeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ranSeekBar"
+                android:layout_column="5"
+                android:max="10"
+                android:progress="1"
+                android:indeterminate="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/burn_Label"
+                android:id="@+id/burnText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/burn_Result_Label"
+                android:id="@+id/burnResultText"
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/height_Label"
+                android:id="@+id/heightText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner1"
+                android:layout_column="3" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner2"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/bmi_Label"
+                android:id="@+id/bmiText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/bmi_Result_Label"
+                android:id="@+id/bmiResultText"
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/name_Label"
+                android:id="@+id/nameText"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="10dp" />
+
+            <TextView
+                android:text="@string/name_Result_Label"
+                android:id="@+id/nameResultText"
+                android:layout_column="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
